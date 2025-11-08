@@ -3,6 +3,8 @@ import Hero from './components/Hero';
 import Features from './components/Features';
 import CTA from './components/CTA';
 import AboutContact from './components/AboutContact';
+import SignIn from './components/SignIn';
+import Dashboard from './components/Dashboard';
 import Footer from './components/Footer';
 
 export default function App() {
@@ -14,6 +16,8 @@ export default function App() {
         <Features />
         <CTA />
         <AboutContact />
+        <SignIn />
+        <Dashboard />
       </main>
       <Footer />
     </div>
